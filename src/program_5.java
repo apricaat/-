@@ -3,7 +3,7 @@ public class program_5 {
         float  n=1;
         while (n<=10){
             double r=1/n;
-            System.out.println("Гармонический ряд из 10 элементов "+String.format("%.2f",(double)r));
+            System.out.println("Гармонический ряд из 10 элементов "+String.format("%.2f", r));
             n++;
         }
 

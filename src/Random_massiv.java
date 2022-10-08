@@ -12,7 +12,7 @@ public class Random_massiv {
     }
     int temp;
     boolean fixed=false;
-    while(fixed==false){
+    while(!fixed){
         fixed=true;
         for(int i=0;i<mas.length-1;i++){
             if(mas[i]>mas[i+1]){
