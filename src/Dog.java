@@ -12,7 +12,7 @@ public class Dog {
     System.out.println(pitomniksobak);
     pitomniksobak.adddogs(dogs);
     System.out.println(pitomniksobak);
-
+//!!!!
     }
 }
 class Sobaka{
