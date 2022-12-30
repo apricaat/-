@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafx.Controller2">
+    <children>
+        <Region fx:id="EAST" layoutX="461.0" prefHeight="400.0" prefWidth="139.0" style="-fx-background-color: #DDD;" />
+        <Region fx:id="WEST" prefHeight="400.0" prefWidth="139.0" style="-fx-background-color: #DDD;" />
+        <Region fx:id="NORTH" layoutX="141.0" prefHeight="135.0" prefWidth="318.0" style="-fx-background-color: #DDD;" />
+        <Region fx:id="SOUTH" layoutX="141.0" layoutY="264.0" prefHeight="135.0" prefWidth="318.0" style="-fx-background-color: #DDD;" />
+        <Region fx:id="CENTER" layoutX="141.0" layoutY="136.0" prefHeight="127.0" prefWidth="318.0" style="-fx-background-color: #DDD;" />
+        <Label layoutX="278.0" layoutY="58.0" prefHeight="20.0" prefWidth="44.0" text="NORTH " textAlignment="CENTER" />
+        <Label layoutX="274.0" layoutY="190.0" prefHeight="20.0" prefWidth="51.0" text="CENTER " textAlignment="CENTER" />
+        <Label layoutX="509.0" layoutY="180.0" prefHeight="20.0" prefWidth="44.0" text="EAST" textAlignment="CENTER" />
+        <Label layoutX="48.0" layoutY="190.0" prefHeight="20.0" prefWidth="44.0" text="WEST" textAlignment="CENTER" />
+        <Label layoutX="278.0" layoutY="322.0" prefHeight="20.0" prefWidth="44.0" text="SOUTH " textAlignment="CENTER" />
+    </children>
+</AnchorPane>
